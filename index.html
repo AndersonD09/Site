@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bibliografia</title>
+    <link rel="stylesheet" href="style.css">
+   
+    <style>  /* Estilos CSS internos para o layout da página */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            width: 80%;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 30px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 20px;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin: 0;
+            color: #030238;
+        }
+
+        .profile-picture {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin: 0 auto;
+            display: block;
+            border: 3px solid #333;
+        }
+
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .content .bio {
+            flex: 1 1 300px;
+            margin-right: 20px;
+        }
+
+        .content .gallery {
+            flex: 1 1 300px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .gallery img {
+            width: 100%;
+            max-width: 200px;
+            border-radius: 10px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+
+        </style>
+</head>
+<body>
+    <header> <!-- Cabeçalho da página com um menu de navegação -->
+        <nav>
+            <ul> 
+                <li><a href="index.html">Sobre mim</a></li>
+                <li><a href="sobre.html">Formação & Experiências</a></li>
+                <li><a href="portifolio.html">Portfólio</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+                <h1>Bem-vindo à página de Anderson!</h1>
+    </main>
+
+    <div class="container"> <!-- Contêiner principal que contém a biografia e a galeria de fotos -->
+        <div class="header">
+            <img src="foto1.png" alt="Minha Foto" class="profile-picture">
+            <h1>Sobre Mim</h1>
+        </div>
+        
+        <div class="content"> <!-- Seção de biografia -->
+            <div class="bio">
+                <h2>Biografia</h2>
+                <p>Olá! Meu nome é Anderson Lourenço, atualmente tenho 29 anos, sou natural Brasileiro e moro no interior de São Paulo, sou casado e ainda não possuo filhos.</p>
+                <p>Meus hobbies são viajar, ler livros de historia e literatura fantástica, academia e cultura pop. Me considero uma pessoa criativa e dedicada.</p>
+                <p>Atualmente, estou focado em estudar e construir uma carreira, sempre buscando novos conhecimentos, desafios e claro, aproveitar a companhia da minha família!</p>
+            </div>
+            
+            <div class="gallery"> <!-- fotos -->
+                <img src="foto2.png" alt="Foto 1">
+                <img src="foto4.png" alt="Foto 2">
+                <img src="foto3.png" alt="Foto 3">
+                
+            </div>
+        </div>
+
+        <footer> <!-- Rodapé da página -->
+            <p>&copy; 2024 Meu Site. Todos os direitos reservados.</p>
+        </footer>
+    </div>
